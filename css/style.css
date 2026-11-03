@@ -1,0 +1,278 @@
+/* 全体 */
+body {
+margin: 0;
+font-family: "Yu Mincho", serif;
+color: #333;
+background-color: white;
+text-align: center;
+}
+
+/* タイトル */
+header {
+background-color: #f7f4ef;
+padding: 35px 20px;
+}
+
+header h1 {
+font-size: 32px;
+margin: 0;
+}
+
+header p {
+font-size: 14px;
+}
+
+/* メイン */
+.main {
+background-color: #444;
+color: white;
+padding: 90px 20px;
+}
+
+.main h2 {
+font-size: 28px;
+}
+
+.main p {
+font-size: 16px;
+}
+
+/* 各項目 */
+.content {
+padding: 65px 20px;
+}
+
+.content h2 {
+font-size: 26px;
+border-bottom: 1px solid #aaa;
+display: inline-block;
+padding-bottom: 10px;
+}
+
+.content p {
+font-size: 16px;
+line-height: 2;
+}
+
+/* ベージュ背景 */
+.beige {
+background-color: #f7f4ef;
+}
+
+/* コース */
+.course {
+background-color: white;
+max-width: 600px;
+margin: 25px auto;
+padding: 25px 15px;
+border: 1px solid #e5e0d8;
+border-radius: 8px;
+}
+
+.course h3 {
+font-size: 21px;
+color: #6e5848;
+}
+
+.course p {
+font-size: 15px;
+}
+
+/* フッター */
+footer {
+background-color: #333;
+color: white;
+padding: 20px;
+font-size: 12px;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+header h1 {
+font-size: 26px;
+}
+
+.main h2 {
+font-size: 23px;
+}
+
+.main {
+padding: 65px 15px;
+}
+
+.content {
+padding: 45px 15px;
+}
+
+.content p {
+font-size: 14px;
+}
+
+.course {
+padding: 20px 12px;
+}
+}
+
+/* コース案内全体 */
+.course {
+background-color: white;
+max-width: 650px;
+margin: 30px auto;
+padding: 30px;
+border: 1px solid #e5e0d8;
+border-radius: 10px;
+text-align: left;
+}
+
+/* コース名 */
+.course h3 {
+font-size: 23px;
+color: #6e5848;
+text-align: center;
+margin-bottom: 15px;
+}
+
+/* 満席表示 */
+.full {
+background-color: #fce8e8;
+color: #a83b3b;
+text-align: center;
+padding: 8px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+/* コースの説明 */
+.description {
+line-height: 1.9;
+margin: 25px 0;
+}
+
+/* 内容を表にする */
+.course table {
+width: 100%;
+border-collapse: collapse;
+margin: 25px 0;
+font-size: 15px;
+}
+
+.course th,
+.course td {
+border-bottom: 1px solid #ddd;
+padding: 13px 10px;
+text-align: left;
+vertical-align: top;
+}
+
+.course th {
+width: 32%;
+background-color: #faf8f5;
+color: #6e5848;
+}
+
+/* 料金 */
+.price {
+background-color: #f7f4ef;
+padding: 20px;
+text-align: center;
+border-radius: 8px;
+margin-top: 25px;
+}
+
+.price h4 {
+font-size: 25px;
+color: #6e5848;
+margin: 10px 0;
+}
+
+.price p {
+margin: 8px 0;
+}
+
+/* 注意事項 */
+.notes {
+background-color: #fafafa;
+padding: 18px;
+margin-top: 20px;
+border-left: 3px solid #b9a58b;
+}
+
+.notes p {
+font-size: 13px;
+line-height: 1.8;
+margin: 10px 0;
+}
+
+/* スマホ対応 */
+@media (max-width: 600px) {
+
+.course {
+padding: 20px 15px;
+}
+
+.course h3 {
+font-size: 21px;
+}
+
+.course table {
+font-size: 13px;
+}
+
+.course th,
+.course td {
+padding: 10px 7px;
+}
+
+.price h4 {
+font-size: 23px;
+}
+
+.notes {
+padding: 12px;
+}
+
+}
+
+.mail-button {
+display: inline-block;
+background-color: #6e5848;
+color: white;
+padding: 12px 30px;
+border-radius: 8px;
+text-decoration: none;
+}
+
+.mail-button:hover {
+background-color: #987b64;
+}
+
+/* 教室所在地 */
+.address {
+background-color: #f7f4ef;
+text-align: center;
+padding: 50px 20px;
+}
+
+.address h2 {
+font-size: 24px;
+color: #6e5848;
+border-bottom: 1px solid #aaa;
+display: inline-block;
+padding-bottom: 10px;
+}
+
+.address p {
+font-size: 16px;
+line-height: 2;
+}
+
+/* Instagramリンク */
+a[href*="instagram.com"] {
+color: #6e5848;
+font-weight: bold;
+text-decoration: none;
+}
+
+a[href*="instagram.com"]:hover {
+text-decoration: underline;
+}
